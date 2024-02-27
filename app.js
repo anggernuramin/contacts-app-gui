@@ -6,7 +6,7 @@ const app = express();
 const port = 3000; // menetukan port untuk menjalankan server
 
 // Membuat file static agar file static terbaca oleh route di express
-// app.use(express.static("public")); // maka apapun yang ada didalam folder public maka akan dianggap file static
+app.use(express.static("public")); // maka apapun yang ada didalam folder public maka akan dianggap file static
 
 // Menggunakan view-engine ejs di express, biasa digunakan untuk mengintegrasikan response dari server dengan HTML/memduahkan membuat apliaksi menggunakan backend tanpa forntend
 app.set("view engine", "ejs"); // File ejs (isi content yg akan ditampilkan di browser) disimpan didalam folder views, cara memanggil isi file nya menggunakan res.render("nama file yg ada didalam folder views")
