@@ -1,0 +1,28 @@
+.container{
+    width: 60% ;
+}
+.wrapper-main{
+    
+    margin-top: 70px;
+}
+
+.navbar-nav{
+    gap: 20px;
+}
+.nav-item{
+    font-weight: 500;
+}
+.button{
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+.navbar{
+    width: 100%;
+    top: 0;
+   
+}
+.list-errors{
+    list-style-type: none;
+    margin-left: -32px;
+}
